@@ -84,3 +84,22 @@ ul {
 .student-info__social-item {
   display: inline-block;
 }
+
+.contact_form {
+
+}
+
+.contact_label {
+  margin: auto;
+}
+
+.contact_input {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+}
+
+.contact_input_comment {
+  width: 30rem;
+  height: 20rem;
+}
