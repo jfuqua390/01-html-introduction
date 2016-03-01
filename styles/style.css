@@ -26,7 +26,6 @@ ul {
 .top-nav__list {
   max-width: 1040px;
   margin: 0 auto;
-
   overflow: auto;
 }
 
@@ -35,6 +34,14 @@ ul {
   font-size: 1.6rem;
   line-height: 3.2rem;
   margin: 0 1rem;
+}
+
+.top-nav_link {
+  float: right;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  margin: 0 1rem;
+  color: #F25F5C;
 }
 
 .top-nav__item--brand {
