@@ -2,58 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ryan Tablada</title>
+    <title>Jonathan Fuqua</title>
 
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="...">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <nav class="...">
-      <ul class="...__list">
-        <li class="top-nav__item top-nav__item--...">Ryan Tablada</li>
-        <li class="...">About</li>
-        <li class="...">Contact</li>
+    <nav class="top-nav">
+      <ul class="top-nav__list">
+        <li class="top-nav__item--brand">Jonathan Fuqua</li>
+        <li>
+          <a class="top-nav_link" href="about.html">About</a>
+        </li>
+        <li>
+          <a class="top-nav_link" href="contact.html">Contact</a>
+        </li>
       </ul>
     </nav>
 
-    <main class="...">
+    <main class="content">
       <h2>My First Day at The Iron Yard</h2>
       <p>
-        Fill this in with some content about how your first day and prework went.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Quas, dolores rem pariatur dicta ullam, cum?
-        Facere fuga dicta deleniti minima eaque corporis adipisci aspernatur illum, quae impedit at ullam sit.
+        My first day at the Iron Yard went fairly smooth, and so far I am really enjoying learning HTML and CSS.
+        Learning how to style a website using CSS is really interesting albeit confusing,
+        but with this assignment I feel I am slowly grasping syntax and linking issues within the two languages.
       </p>
       <p>
-        There should be no lorem text on this page.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Cum placeat eos dolorum optio harum, quisquam commodi cumque libero atque, eveniet, nam suscipit ipsa unde nostrum illo quaerat dignissimos, autem numquam?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        I look forward to learning more over the next 3 months and hope to become a
+        Master of Web Development!
       </p>
     </main>
 
-    <footer class="...">
-      <img class="...__..." src="...." alt="Ryan Tablada">
-      <h2 class="...__name">Ryan Tablada</h2>
+    <footer class="student-info">
+      <img class="student-info__profile-pic" src="https://media.licdn.com/media/p/7/005/00b/200/018422b.jpg" alt="Ryan Tablada">
+      <h2 class="student-info__name">Jonathan Fuqua</h2>
 
-      <p class="...__...">Instructor and developer at The Iron Yard</p>
-      <ul class="...__social-...">
-        <li class="...__...">
-          <a href="http://hmpg.net/">Facebook</a>
+      <p class="student-info__bio">Developer at The Iron Yard</p>
+      <ul class="student-info__social-list">
+        <li class="student-info__social-item">
+          <a href="https://www.facebook.com/jonathan.fuqua.5">Facebook</a>
         </li>
-        <li class="...__...">
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Twitter</a>
+        <li class="student-info__social-item">
+          <a href="https://twitter.com/FuqDaddyLoL">Twitter</a>
         </li>
-        <li class="...__...">
-          <a href="http://ryantablada.com">Blog</a>
-        </li>
-        <li class="...__...">
-          <a href="http://ryantablada.com">Delete This Link</a>
+        <li class="student-info__social-item">
+          <a href="https://www.youtube.com/channel/UCl4VLjxGbf9UtII4TqwK_hA">YouTube</a>
         </li>
       </ul>
+      <form class="contact_form" action="theiron"> Contact Me:
+        <div>
+          <label class="contact_label" for="txtname">Name:</label>
+          <input class="contact_input" type="text" name="txtname" id="txtname">
+        </div>
+        <div>
+          <label class="contact_label" for="txtemail">Email:</label>
+          <input class="contact_input" type="txtemail" name="txtemail" id="txtemail">
+        </div>
+        <div>
+          <label class="contact_label" for="commentbox">Comments:</label>
+        </div>
+        <div>
+          <textarea class="contact_input_comment" type="text"></textarea>
+        </div>
+        <button class="submit_button">Submit</button>
+      </form>
     </footer>
   </body>
 </html>

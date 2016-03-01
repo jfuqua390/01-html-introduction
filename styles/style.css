@@ -26,7 +26,6 @@ ul {
 .top-nav__list {
   max-width: 1040px;
   margin: 0 auto;
-
   overflow: auto;
 }
 
@@ -37,19 +36,30 @@ ul {
   margin: 0 1rem;
 }
 
-.top-nav__item--brand {
+.top-nav_link {
   float: right;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  margin: 0 1rem;
+  color: #F25F5C;
+}
+
+.top-nav__item--brand {
+  float: left;
+  font-size: 2rem;
+  margin: auto;
+  line-height: 3.2rem;
 }
 
 .top-nav {
   background: #272727;
-  color: antiquewhite;
+  color: #F25F5C;
 }
 
 .content {
   padding: 0 1rem;
-  max-width: 1040px
-  margin: auto
+  max-width: 1040px;
+  margin: auto;
 }
 
 .student-info {
@@ -74,10 +84,29 @@ ul {
 }
 
 .student-info__social-list {
-  margin: auto
+  margin: auto;
   text-align: center;
 }
 
 .student-info__social-item {
   display: inline-block;
+}
+
+.contact_form {
+
+}
+
+.contact_label {
+  margin: auto;
+}
+
+.contact_input {
+  text-align: center;
+  margin: auto;
+  width: 10rem;
+}
+
+.contact_input_comment {
+  width: 30rem;
+  height: 20rem;
 }
